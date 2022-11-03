@@ -4,6 +4,8 @@
     box-sizing: border-box;
     font-family: sans-serif;
     text-align: center;
+    list-style: none;
+    text-decoration: none;
 }
 .card{
     border: 1px solid red;
@@ -38,4 +40,7 @@ button{
         padding: 8px 13px;
         font-size: 17px;
     }
+}
+a{
+    color: red;
 }
