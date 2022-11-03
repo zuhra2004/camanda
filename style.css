@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-align: center;
+}
+.card{
+    border: 1px solid red;
+    text-align: center;
+}
+.icon{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: auto;
+    border: 3px solid red;
+    display: flex;
+    align-items: center;
+    background: linear-gradient( 45deg, red,orange);
+    justify-content: center;
+}
+button{
+    padding: 5px 10px;
+    border-radius: 6px;
+    border: 1px solid gray;
+    background: linear-gradient(blue, aqua) ;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    animation: anime 0.6s alternate ease-in infinite;
+}
+@keyframes anime{
+    0%{
+        padding: 5px 10px;
+    }
+    100%{
+        padding: 8px 13px;
+        font-size: 17px;
+    }
+}
